@@ -176,8 +176,8 @@
     <div class="scroll-indicator" id="scrollIndicator"></div>
 
     <!-- Header -->
-    <header class="sticky top-0 z-50 bg-slate-900/95 backdrop-blur-sm border-b border-slate-700">
-        <div class="max-w-7xl mx-auto px-4 py-4">
+    <header class="bg-slate-900/95 backdrop-blur-sm border-b border-slate-700">
+        <div class="max-w-7xl mx-auto px-4 mt-2 pb-2 pt-2">
             <div class="flex items-center justify-between">
                 <div class="flex items-center gap-4">
                     <img src="assets/gridder-logo.png" alt="Mastors Gridder" class="h-12">
@@ -202,7 +202,7 @@
 
     <!-- Navigation -->
     <nav
-        class="w-full flex bg-slate-800/50 backdrop-blur-sm border-b border-slate-700 sticky top-[7rem] md:top-[6rem]-40">
+        class="w-full flex bg-slate-800/50 backdrop-blur-sm border-b border-slate-700 sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-4 overflow-x-auto">
             <div class="flex gap-2 overflow-x-auto py-3">
                 <a href="#overview" class="nav-link text-gray-300 whitespace-nowrap"><i
@@ -215,6 +215,12 @@
                         class="fab fa-css3-alt mr-2"></i>CSS</a>
                 <a href="#examples" class="nav-link text-gray-300 whitespace-nowrap"><i
                         class="fas fa-code mr-2"></i>Examples</a>
+                <a href="#changelog" class="nav-link text-gray-300 whitespace-nowrap">
+                    <i class="fas fa-list mr-2"></i>Changelog
+                </a>
+                <a href="#faq" class="nav-link text-gray-300 whitespace-nowrap">
+                    <i class="fas fa-question-circle mr-2"></i>FAQ
+                </a>
             </div>
         </div>
     </nav>
@@ -222,8 +228,8 @@
     <!-- Hero Section -->
     <section class="py-20 px-4">
         <div class="max-w-7xl mx-auto text-center">
-            <h2 class="text-5xl font-bold mb-6 gradient-text">Modern CSS Grid Utility Library</h2>
-            <p class="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6 gradient-text">Modern SASS Grid Mixin Utility Library & CSS CDN</h2>
+            <p class="text-l md:text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
                 A comprehensive collection of SCSS mixins and CSS utility classes for building responsive grid layouts
                 with ease.
                 From simple galleries to complex Holy Grail layouts.
@@ -242,6 +248,33 @@
                     <div class="text-gray-400">File Size</div>
                 </div>
             </div>
+
+            <div class="flex justify-center pt-8 md:pt-12 gap-4">
+                <!-- GitHub -->
+                <a href="https://github.com/KEHEM-IT/Mastors-Gridder" class="w-auto md:w-[10rem] px-4 py-2 bg-gray-800 hover:bg-gray-700
+                          rounded-lg transition-colors
+                          flex items-center justify-center gap-2">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+            
+                <!-- NPM -->
+                <a href="https://www.npmjs.com/package/mastors-gridder" class="w-auto md:w-[10rem] px-4 py-2 bg-red-600 hover:bg-red-700
+                          rounded-lg transition-colors
+                          flex items-center justify-center gap-2">
+                    <i class="fab fa-npm"></i>
+                    <span>NPM</span>
+                </a>
+            
+                <!-- CDN -->
+                <a href="https://cdn.jsdelivr.net/gh/KEHEM-IT/Mastors-Gridder@main/mastors-gridder.css" class="w-auto md:w-[10rem] px-4 py-2 bg-purple-600 hover:bg-purple-700
+                          rounded-lg transition-colors
+                          flex items-center justify-center gap-2">
+                    <i class="fas fa-globe"></i>
+                    <span>CDN</span>
+                </a>
+            </div>
+
         </div>
     </section>
 
@@ -1631,6 +1664,131 @@
             </div>
         </div>
     </section>
+    <section id="changelog" class="max-w-7xl mx-auto px-4 py-20">
+        <div class="mb-12 text-center">
+            <h2 class="text-4xl font-bold gradient-text mb-4">Changelog</h2>
+            <p class="text-gray-400 max-w-2xl mx-auto">
+                Track updates, improvements, and new features introduced in Mastors Gridder.
+            </p>
+        </div>
+
+        <div class="card-gradient rounded-xl p-8">
+            <div class="flex items-center justify-between mb-6">
+                <h3 class="text-2xl font-semibold">v1.0.0 — Initial Stable Release</h3>
+                <span class="text-sm px-3 py-1 rounded-full bg-blue-600/20 text-blue-400">
+                    Latest
+                </span>
+            </div>
+
+            <ul class="space-y-4 text-gray-300">
+                <li class="flex gap-3">
+                    <i class="fas fa-check-circle text-green-400 mt-1"></i>
+                    <span><strong>25+ production-ready SCSS mixins</strong> designed for real-world layouts</span>
+                </li>
+                <li class="flex gap-3">
+                    <i class="fas fa-check-circle text-green-400 mt-1"></i>
+                    <span><strong>Complete responsive grid system</strong> using modern CSS Grid</span>
+                </li>
+                <li class="flex gap-3">
+                    <i class="fas fa-check-circle text-green-400 mt-1"></i>
+                    <span><strong>Fixed and fluid grid layouts</strong> with breakpoint control</span>
+                </li>
+                <li class="flex gap-3">
+                    <i class="fas fa-check-circle text-green-400 mt-1"></i>
+                    <span><strong>Common layout patterns</strong> — sidebar, holy grail, full-bleed</span>
+                </li>
+                <li class="flex gap-3">
+                    <i class="fas fa-check-circle text-green-400 mt-1"></i>
+                    <span><strong>Grid item positioning and spanning</strong> utilities</span>
+                </li>
+                <li class="flex gap-3">
+                    <i class="fas fa-check-circle text-green-400 mt-1"></i>
+                    <span><strong>Comprehensive alignment utilities</strong> for rows and columns</span>
+                </li>
+                <li class="flex gap-3">
+                    <i class="fas fa-check-circle text-green-400 mt-1"></i>
+                    <span><strong>Advanced features</strong>: subgrid, dense packing, masonry-style grids</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="faq" class="max-w-7xl mx-auto px-4 py-20">
+        <div class="mb-12 text-center">
+            <h2 class="text-4xl font-bold gradient-text mb-4">Frequently Asked Questions</h2>
+            <p class="text-gray-400 max-w-2xl mx-auto">
+                Common questions about using Mastors Gridder in real projects.
+            </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6">
+            <!-- FAQ Item -->
+            <div class="card-gradient rounded-xl p-6">
+                <h4 class="text-lg font-semibold mb-2 flex items-center gap-2">
+                    <i class="fas fa-cubes text-blue-400"></i>
+                    What is Mastors Gridder?
+                </h4>
+                <p class="text-gray-400">
+                    Mastors Gridder is a modern CSS & SCSS grid utility that helps you build
+                    responsive, flexible, and production-ready layouts using CSS Grid.
+                </p>
+            </div>
+
+            <div class="card-gradient rounded-xl p-6">
+                <h4 class="text-lg font-semibold mb-2 flex items-center gap-2">
+                    <i class="fab fa-sass text-pink-400"></i>
+                    Do I need SCSS to use Gridder?
+                </h4>
+                <p class="text-gray-400">
+                    No. You can use the precompiled CSS via CDN.
+                    SCSS is optional but recommended if you want customization and mixins.
+                </p>
+            </div>
+
+            <div class="card-gradient rounded-xl p-6">
+                <h4 class="text-lg font-semibold mb-2 flex items-center gap-2">
+                    <i class="fas fa-mobile-alt text-purple-400"></i>
+                    Is it mobile-first?
+                </h4>
+                <p class="text-gray-400">
+                    Yes. Mastors Gridder follows a mobile-first approach and scales naturally
+                    across breakpoints.
+                </p>
+            </div>
+
+            <div class="card-gradient rounded-xl p-6">
+                <h4 class="text-lg font-semibold mb-2 flex items-center gap-2">
+                    <i class="fas fa-layer-group text-indigo-400"></i>
+                    Does it support complex layouts?
+                </h4>
+                <p class="text-gray-400">
+                    Absolutely. It supports subgrid, dense packing, masonry-style layouts,
+                    and classic patterns like holy grail and sidebars.
+                </p>
+            </div>
+
+            <div class="card-gradient rounded-xl p-6">
+                <h4 class="text-lg font-semibold mb-2 flex items-center gap-2">
+                    <i class="fas fa-feather-alt text-green-400"></i>
+                    Is Mastors Gridder lightweight?
+                </h4>
+                <p class="text-gray-400">
+                    Yes. It’s designed to be minimal, utility-focused, and free from unnecessary bloat.
+                </p>
+            </div>
+
+            <div class="card-gradient rounded-xl p-6">
+                <h4 class="text-lg font-semibold mb-2 flex items-center gap-2">
+                    <i class="fab fa-github text-gray-300"></i>
+                    Is it open-source?
+                </h4>
+                <p class="text-gray-400">
+                    Yes. Mastors Gridder is fully open-source and maintained on GitHub.
+                    Contributions and feedback are welcome.
+                </p>
+            </div>
+        </div>
+    </section>
+
 
     <!-- Browser Support -->
     <section class="py-16 px-4">
@@ -1733,7 +1891,8 @@
     </footer>
 
     <!-- Scripts -->
-    <script>// Scroll Indicator
+    <script>
+        // Scroll Indicator
         window.addEventListener('scroll', () => {
             const indicator = document.getElementById('scrollIndicator');
             const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
