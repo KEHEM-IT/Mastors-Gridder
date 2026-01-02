@@ -1,685 +1,838 @@
 /* ===============================
-   MASTORS GRIDDER v1.0.0
-   CSS Grid Utility Classes
+   COMPREHENSIVE GRID UTILITIES CSS
    =============================== */
 
 /* -------------------------------
    AUTO-FIT RESPONSIVE GRIDS
    ------------------------------- */
-
 .grid-auto {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
 }
 
 .grid-auto-sm {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
 }
 
 .grid-auto-md {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
 }
 
 .grid-auto-lg {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 1rem;
 }
 
 /* -------------------------------
    AUTO-FILL RESPONSIVE GRIDS
    ------------------------------- */
-
 .grid-fill {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
 }
 
 .grid-fill-sm {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1rem;
+}
+
+.grid-fill-md {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
 }
 
 .grid-fill-lg {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 1rem;
 }
 
 /* -------------------------------
    FIXED COLUMN GRIDS
    ------------------------------- */
-
-.grid-cols-1 {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 1rem;
-}
-
-.grid-cols-2 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
-}
-
-.grid-cols-3 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-}
-
-.grid-cols-4 {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
-}
-
-.grid-cols-5 {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 1rem;
-}
-
-.grid-cols-6 {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 1rem;
-}
-
-.grid-cols-8 {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  gap: 1rem;
-}
-
-.grid-cols-12 {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 1rem;
-}
+.grid-cols-1 { display: grid; grid-template-columns: repeat(1, 1fr); gap: 1rem; }
+.grid-cols-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+.grid-cols-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+.grid-cols-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
+.grid-cols-5 { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1rem; }
+.grid-cols-6 { display: grid; grid-template-columns: repeat(6, 1fr); gap: 1rem; }
+.grid-cols-7 { display: grid; grid-template-columns: repeat(7, 1fr); gap: 1rem; }
+.grid-cols-8 { display: grid; grid-template-columns: repeat(8, 1fr); gap: 1rem; }
+.grid-cols-9 { display: grid; grid-template-columns: repeat(9, 1fr); gap: 1rem; }
+.grid-cols-10 { display: grid; grid-template-columns: repeat(10, 1fr); gap: 1rem; }
+.grid-cols-11 { display: grid; grid-template-columns: repeat(11, 1fr); gap: 1rem; }
+.grid-cols-12 { display: grid; grid-template-columns: repeat(12, 1fr); gap: 1rem; }
 
 /* -------------------------------
    FIXED ROW GRIDS
    ------------------------------- */
-
-.grid-rows-2 {
-  display: grid;
-  grid-template-rows: repeat(2, 1fr);
-  gap: 1rem;
-}
-
-.grid-rows-3 {
-  display: grid;
-  grid-template-rows: repeat(3, 1fr);
-  gap: 1rem;
-}
-
-.grid-rows-4 {
-  display: grid;
-  grid-template-rows: repeat(4, 1fr);
-  gap: 1rem;
-}
-
-.grid-rows-5 {
-  display: grid;
-  grid-template-rows: repeat(5, 1fr);
-  gap: 1rem;
-}
+.grid-rows-1 { display: grid; grid-template-rows: repeat(1, 1fr); gap: 1rem; }
+.grid-rows-2 { display: grid; grid-template-rows: repeat(2, 1fr); gap: 1rem; }
+.grid-rows-3 { display: grid; grid-template-rows: repeat(3, 1fr); gap: 1rem; }
+.grid-rows-4 { display: grid; grid-template-rows: repeat(4, 1fr); gap: 1rem; }
+.grid-rows-5 { display: grid; grid-template-rows: repeat(5, 1fr); gap: 1rem; }
+.grid-rows-6 { display: grid; grid-template-rows: repeat(6, 1fr); gap: 1rem; }
 
 /* -------------------------------
-   GRID GAPS
+   CENTERED GRID
    ------------------------------- */
-
-.gap-0 {
-  gap: 0;
+.grid-center {
+    display: grid;
+    place-items: center;
 }
 
-.gap-xs {
-  gap: 0.5rem;
+.grid-place-center {
+    display: grid;
+    place-items: center;
 }
 
-.gap-sm {
-  gap: 1rem;
-}
-
-.gap-md {
-  gap: 1.5rem;
-}
-
-.gap-lg {
-  gap: 2rem;
-}
-
-.gap-xl {
-  gap: 3rem;
-}
-
-/* Row and column specific gaps */
-.gap-x-sm {
-  column-gap: 1rem;
-}
-
-.gap-y-sm {
-  row-gap: 1rem;
-}
-
-.gap-x-md {
-  column-gap: 1.5rem;
-}
-
-.gap-y-md {
-  row-gap: 1.5rem;
-}
-
-.gap-x-lg {
-  column-gap: 2rem;
-}
-
-.gap-y-lg {
-  row-gap: 2rem;
+.grid-place-content-center {
+    display: grid;
+    place-content: center;
 }
 
 /* -------------------------------
    GRID ITEM SPANS
    ------------------------------- */
+.col-span-1 { grid-column: span 1; }
+.col-span-2 { grid-column: span 2; }
+.col-span-3 { grid-column: span 3; }
+.col-span-4 { grid-column: span 4; }
+.col-span-5 { grid-column: span 5; }
+.col-span-6 { grid-column: span 6; }
+.col-span-7 { grid-column: span 7; }
+.col-span-8 { grid-column: span 8; }
+.col-span-9 { grid-column: span 9; }
+.col-span-10 { grid-column: span 10; }
+.col-span-11 { grid-column: span 11; }
+.col-span-12 { grid-column: span 12; }
+.col-span-full { grid-column: 1 / -1; }
 
-.col-span-1 {
-  grid-column: span 1;
+.row-span-1 { grid-row: span 1; }
+.row-span-2 { grid-row: span 2; }
+.row-span-3 { grid-row: span 3; }
+.row-span-4 { grid-row: span 4; }
+.row-span-5 { grid-row: span 5; }
+.row-span-6 { grid-row: span 6; }
+.row-span-full { grid-row: 1 / -1; }
+
+/* -------------------------------
+   HOLY GRAIL LAYOUT
+   ------------------------------- */
+.grid-holy-grail {
+    display: grid;
+    grid-template-columns: 250px 1fr 250px;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "header header header"
+        "sidebar-left content sidebar-right"
+        "footer footer footer";
+    gap: 1rem;
+    min-height: 100vh;
 }
 
-.col-span-2 {
-  grid-column: span 2;
+.grid-holy-grail-sm {
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "header header header"
+        "sidebar-left content sidebar-right"
+        "footer footer footer";
+    gap: 1rem;
+    min-height: 100vh;
 }
 
-.col-span-3 {
-  grid-column: span 3;
+.grid-holy-grail-lg {
+    display: grid;
+    grid-template-columns: 300px 1fr 300px;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "header header header"
+        "sidebar-left content sidebar-right"
+        "footer footer footer";
+    gap: 1rem;
+    min-height: 100vh;
 }
 
-.col-span-4 {
-  grid-column: span 4;
+.area-header { grid-area: header; }
+.area-sidebar-left { grid-area: sidebar-left; }
+.area-content { grid-area: content; }
+.area-sidebar-right { grid-area: sidebar-right; }
+.area-footer { grid-area: footer; }
+
+/* -------------------------------
+   MASONRY-STYLE GRIDS
+   ------------------------------- */
+.grid-masonry {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 10px;
+    gap: 1rem;
 }
 
-.col-span-5 {
-  grid-column: span 5;
+.grid-masonry-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 10px;
+    gap: 1rem;
 }
 
-.col-span-6 {
-  grid-column: span 6;
+.grid-masonry-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 10px;
+    gap: 1rem;
 }
 
-.col-span-full {
-  grid-column: 1 / -1;
+.grid-masonry-modern {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 50px;
+    grid-auto-flow: row dense;
+    gap: 1rem;
 }
 
-.row-span-1 {
-  grid-row: span 1;
+/* -------------------------------
+   SIDEBAR LAYOUTS
+   ------------------------------- */
+.grid-sidebar-left {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 1rem;
 }
 
-.row-span-2 {
-  grid-row: span 2;
+.grid-sidebar-right {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 1rem;
 }
 
-.row-span-3 {
-  grid-row: span 3;
+.grid-sidebar-sm-left {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 1rem;
 }
 
-.row-span-4 {
-  grid-row: span 4;
+.grid-sidebar-sm-right {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    gap: 1rem;
 }
 
-.row-span-full {
-  grid-row: 1 / -1;
+.grid-sidebar-lg-left {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    gap: 1rem;
+}
+
+.grid-sidebar-lg-right {
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    gap: 1rem;
+}
+
+/* -------------------------------
+   RESPONSIVE SIDEBAR
+   ------------------------------- */
+.grid-sidebar-responsive {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+    .grid-sidebar-responsive {
+        grid-template-columns: 300px 1fr;
+    }
+}
+
+@media (min-width: 768px) {
+    .grid-sidebar-responsive-right {
+        grid-template-columns: 1fr 300px;
+    }
+}
+
+/* -------------------------------
+   DENSE GRID
+   ------------------------------- */
+.grid-dense {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-auto-flow: dense;
+    gap: 1rem;
+}
+
+.grid-dense-sm {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-auto-flow: dense;
+    gap: 1rem;
+}
+
+.grid-dense-lg {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-flow: dense;
+    gap: 1rem;
+}
+
+/* -------------------------------
+   EQUAL HEIGHT ROWS
+   ------------------------------- */
+.grid-equal-rows {
+    display: grid;
+    grid-auto-rows: 1fr;
+    gap: 1rem;
+}
+
+/* -------------------------------
+   FULL BLEED GRID
+   ------------------------------- */
+.grid-full-bleed {
+    display: grid;
+    grid-template-columns: 1fr min(1200px, 100%) 1fr;
+    gap: 1rem;
+}
+
+.grid-full-bleed > * {
+    grid-column: 2;
+}
+
+.grid-full-bleed-sm {
+    display: grid;
+    grid-template-columns: 1fr min(960px, 100%) 1fr;
+    gap: 1rem;
+}
+
+.grid-full-bleed-sm > * {
+    grid-column: 2;
+}
+
+.grid-full-bleed-lg {
+    display: grid;
+    grid-template-columns: 1fr min(1440px, 100%) 1fr;
+    gap: 1rem;
+}
+
+.grid-full-bleed-lg > * {
+    grid-column: 2;
+}
+
+/* -------------------------------
+   CARD GRIDS
+   ------------------------------- */
+.grid-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
+    gap: 1.5rem;
+}
+
+.grid-cards-sm {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr));
+    gap: 1rem;
+}
+
+.grid-cards-md {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr));
+    gap: 1.5rem;
+}
+
+.grid-cards-lg {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(400px, 100%), 1fr));
+    gap: 2rem;
+}
+
+/* -------------------------------
+   ASYMMETRIC GRIDS
+   ------------------------------- */
+.grid-asymmetric-2-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+}
+
+.grid-asymmetric-1-2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1rem;
+}
+
+.grid-asymmetric-3-1 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 1rem;
+}
+
+.grid-asymmetric-1-3 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 1rem;
+}
+
+.grid-asymmetric-3-2 {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 1rem;
+}
+
+/* -------------------------------
+   STACKED RESPONSIVE GRIDS
+   ------------------------------- */
+.grid-stacked-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+@media (min-width: 640px) {
+    .grid-stacked-2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.grid-stacked-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+@media (min-width: 640px) {
+    .grid-stacked-3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.grid-stacked-4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+@media (min-width: 640px) {
+    .grid-stacked-4 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .grid-stacked-4 {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
 
 /* -------------------------------
    GRID ALIGNMENT
    ------------------------------- */
+.justify-items-start { justify-items: start; }
+.justify-items-end { justify-items: end; }
+.justify-items-center { justify-items: center; }
+.justify-items-stretch { justify-items: stretch; }
 
-.grid-center {
-  display: grid;
-  place-items: center;
-}
+.align-items-start { align-items: start; }
+.align-items-end { align-items: end; }
+.align-items-center { align-items: center; }
+.align-items-stretch { align-items: stretch; }
 
-.items-start {
-  align-items: start;
-}
+.justify-content-start { justify-content: start; }
+.justify-content-end { justify-content: end; }
+.justify-content-center { justify-content: center; }
+.justify-content-between { justify-content: space-between; }
+.justify-content-around { justify-content: space-around; }
+.justify-content-evenly { justify-content: space-evenly; }
 
-.items-center {
-  align-items: center;
-}
-
-.items-end {
-  align-items: end;
-}
-
-.items-stretch {
-  align-items: stretch;
-}
-
-.justify-items-start {
-  justify-items: start;
-}
-
-.justify-items-center {
-  justify-items: center;
-}
-
-.justify-items-end {
-  justify-items: end;
-}
-
-.justify-items-stretch {
-  justify-items: stretch;
-}
-
-/* Self alignment */
-.self-start {
-  align-self: start;
-}
-
-.self-center {
-  align-self: center;
-}
-
-.self-end {
-  align-self: end;
-}
-
-.self-stretch {
-  align-self: stretch;
-}
-
-.justify-self-start {
-  justify-self: start;
-}
-
-.justify-self-center {
-  justify-self: center;
-}
-
-.justify-self-end {
-  justify-self: end;
-}
+.align-content-start { align-content: start; }
+.align-content-end { align-content: end; }
+.align-content-center { align-content: center; }
+.align-content-between { align-content: space-between; }
+.align-content-around { align-content: space-around; }
+.align-content-evenly { align-content: space-evenly; }
 
 /* -------------------------------
-   LAYOUT PATTERNS
+   GRID SELF ALIGNMENT
    ------------------------------- */
+.justify-self-start { justify-self: start; }
+.justify-self-end { justify-self: end; }
+.justify-self-center { justify-self: center; }
+.justify-self-stretch { justify-self: stretch; }
 
-/* Sidebar Layout (Left) */
-.grid-sidebar {
-  display: grid;
-  grid-template-columns: 300px 1fr;
-  gap: 1rem;
-}
-
-.grid-sidebar-sm {
-  display: grid;
-  grid-template-columns: 200px 1fr;
-  gap: 1rem;
-}
-
-.grid-sidebar-lg {
-  display: grid;
-  grid-template-columns: 400px 1fr;
-  gap: 1rem;
-}
-
-/* Sidebar Right */
-.grid-sidebar-right {
-  display: grid;
-  grid-template-columns: 1fr 300px;
-  gap: 1rem;
-}
-
-/* Holy Grail Layout */
-.grid-holy-grail {
-  display: grid;
-  grid-template-columns: 250px 1fr 250px;
-  grid-template-rows: auto 1fr auto;
-  grid-template-areas:
-    "header header header"
-    "sidebar-left content sidebar-right"
-    "footer footer footer";
-  gap: 1rem;
-  min-height: 100vh;
-}
-
-/* Named areas for Holy Grail */
-.grid-area-header {
-  grid-area: header;
-}
-
-.grid-area-sidebar-left {
-  grid-area: sidebar-left;
-}
-
-.grid-area-content {
-  grid-area: content;
-}
-
-.grid-area-sidebar-right {
-  grid-area: sidebar-right;
-}
-
-.grid-area-footer {
-  grid-area: footer;
-}
-
-/* Full Bleed Layout */
-.grid-full-bleed {
-  display: grid;
-  grid-template-columns: 1fr min(1200px, 100%) 1fr;
-  gap: 1rem;
-}
-
-.grid-full-bleed > * {
-  grid-column: 2;
-}
-
-.grid-full-bleed .full-width {
-  grid-column: 1 / -1;
-}
-
-/* Card Grid */
-.grid-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
-  gap: 1.5rem;
-}
-
-.grid-cards-sm {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr));
-  gap: 1rem;
-}
-
-.grid-cards-lg {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(350px, 100%), 1fr));
-  gap: 2rem;
-}
-
-/* Asymmetric 2-Column */
-.grid-asymmetric {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 1rem;
-}
-
-.grid-asymmetric-reverse {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 1rem;
-}
-
-/* Masonry-style Grid */
-.grid-masonry {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 10px;
-  gap: 1rem;
-}
-
-.grid-masonry-4 {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: 10px;
-  gap: 1rem;
-}
-
-/* Dense Grid Packing */
-.grid-dense {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  grid-auto-flow: dense;
-  gap: 1rem;
-}
-
-/* Equal Height Rows */
-.grid-equal-rows {
-  display: grid;
-  grid-auto-rows: 1fr;
-  gap: 1rem;
-}
+.align-self-start { align-self: start; }
+.align-self-end { align-self: end; }
+.align-self-center { align-self: center; }
+.align-self-stretch { align-self: stretch; }
 
 /* -------------------------------
-   RESPONSIVE UTILITIES
+   GRID GAP UTILITIES
    ------------------------------- */
+.gap-0 { gap: 0; }
+.gap-1 { gap: 0.25rem; }
+.gap-2 { gap: 0.5rem; }
+.gap-3 { gap: 0.75rem; }
+.gap-4 { gap: 1rem; }
+.gap-5 { gap: 1.25rem; }
+.gap-6 { gap: 1.5rem; }
+.gap-7 { gap: 1.75rem; }
+.gap-8 { gap: 2rem; }
+.gap-10 { gap: 2.5rem; }
+.gap-12 { gap: 3rem; }
+.gap-16 { gap: 4rem; }
 
-/* Mobile First: Stack to Grid */
-.grid-stacked {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1rem;
-}
+.gap-x-0 { column-gap: 0; }
+.gap-x-1 { column-gap: 0.25rem; }
+.gap-x-2 { column-gap: 0.5rem; }
+.gap-x-3 { column-gap: 0.75rem; }
+.gap-x-4 { column-gap: 1rem; }
+.gap-x-5 { column-gap: 1.25rem; }
+.gap-x-6 { column-gap: 1.5rem; }
+.gap-x-8 { column-gap: 2rem; }
 
-@media (min-width: 640px) {
-  .grid-stacked {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
+.gap-y-0 { row-gap: 0; }
+.gap-y-1 { row-gap: 0.25rem; }
+.gap-y-2 { row-gap: 0.5rem; }
+.gap-y-3 { row-gap: 0.75rem; }
+.gap-y-4 { row-gap: 1rem; }
+.gap-y-5 { row-gap: 1.25rem; }
+.gap-y-6 { row-gap: 1.5rem; }
+.gap-y-8 { row-gap: 2rem; }
 
-.grid-stacked-3 {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1rem;
-}
+/* -------------------------------
+   GRID AUTO FLOW
+   ------------------------------- */
+.grid-flow-row { grid-auto-flow: row; }
+.grid-flow-col { grid-auto-flow: column; }
+.grid-flow-dense { grid-auto-flow: dense; }
+.grid-flow-row-dense { grid-auto-flow: row dense; }
+.grid-flow-col-dense { grid-auto-flow: column dense; }
 
-@media (min-width: 768px) {
-  .grid-stacked-3 {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
+/* -------------------------------
+   GRID AUTO ROWS
+   ------------------------------- */
+.auto-rows-auto { grid-auto-rows: auto; }
+.auto-rows-min { grid-auto-rows: min-content; }
+.auto-rows-max { grid-auto-rows: max-content; }
+.auto-rows-fr { grid-auto-rows: 1fr; }
 
-/* Responsive Sidebar */
-.grid-sidebar-responsive {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1rem;
-}
-
-@media (min-width: 768px) {
-  .grid-sidebar-responsive {
-    grid-template-columns: 300px 1fr;
-  }
-}
-
-/* Responsive Columns */
-@media (min-width: 640px) {
-  .sm\:grid-cols-2 {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .sm\:grid-cols-3 {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .sm\:grid-cols-4 {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:grid-cols-2 {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .md\:grid-cols-3 {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .md\:grid-cols-4 {
-    grid-template-columns: repeat(4, 1fr);
-  }
-
-  .md\:grid-cols-6 {
-    grid-template-columns: repeat(6, 1fr);
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:grid-cols-3 {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .lg\:grid-cols-4 {
-    grid-template-columns: repeat(4, 1fr);
-  }
-
-  .lg\:grid-cols-5 {
-    grid-template-columns: repeat(5, 1fr);
-  }
-
-  .lg\:grid-cols-6 {
-    grid-template-columns: repeat(6, 1fr);
-  }
-}
-
-/* Responsive Spans */
-@media (min-width: 640px) {
-  .sm\:col-span-2 {
-    grid-column: span 2;
-  }
-
-  .sm\:col-span-3 {
-    grid-column: span 3;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:col-span-2 {
-    grid-column: span 2;
-  }
-
-  .md\:col-span-3 {
-    grid-column: span 3;
-  }
-
-  .md\:col-span-4 {
-    grid-column: span 4;
-  }
-}
+/* -------------------------------
+   GRID AUTO COLUMNS
+   ------------------------------- */
+.auto-cols-auto { grid-auto-columns: auto; }
+.auto-cols-min { grid-auto-columns: min-content; }
+.auto-cols-max { grid-auto-columns: max-content; }
+.auto-cols-fr { grid-auto-columns: 1fr; }
 
 /* -------------------------------
    GRID ORDER
    ------------------------------- */
+.order-first { order: -9999; }
+.order-last { order: 9999; }
+.order-none { order: 0; }
+.order-1 { order: 1; }
+.order-2 { order: 2; }
+.order-3 { order: 3; }
+.order-4 { order: 4; }
+.order-5 { order: 5; }
+.order-6 { order: 6; }
 
-.order-first {
-  order: -1;
+/* -------------------------------
+   GRID LAYERING/OVERLAY
+   ------------------------------- */
+.grid-layer-full {
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
 }
 
-.order-last {
-  order: 999;
+.grid-full-width {
+    grid-column: 1 / -1;
 }
 
-.order-1 {
-  order: 1;
-}
-
-.order-2 {
-  order: 2;
-}
-
-.order-3 {
-  order: 3;
+.grid-full-height {
+    grid-row: 1 / -1;
 }
 
 /* -------------------------------
-   SUBGRID SUPPORT
+   INTRINSIC SIZING
+   ------------------------------- */
+.grid-intrinsic-min {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, min-content);
+    gap: 1rem;
+}
+
+.grid-intrinsic-max {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, max-content);
+    gap: 1rem;
+}
+
+/* -------------------------------
+   FIT-CONTENT GRIDS
+   ------------------------------- */
+.grid-fit-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, fit-content(300px));
+    gap: 1rem;
+}
+
+.grid-fit-content-sm {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, fit-content(200px));
+    gap: 1rem;
+}
+
+.grid-fit-content-lg {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, fit-content(400px));
+    gap: 1rem;
+}
+
+/* -------------------------------
+   CONTAINER QUERY AWARE
+   ------------------------------- */
+.grid-container-aware {
+    container-type: inline-size;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.grid-container-aware-sm {
+    container-type: inline-size;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+}
+
+.grid-container-aware-lg {
+    container-type: inline-size;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 1rem;
+}
+
+/* -------------------------------
+   COMMON GRID PATTERNS
    ------------------------------- */
 
-.subgrid-cols {
-  display: grid;
-  grid-template-columns: subgrid;
+/* Dashboard Layout */
+.grid-dashboard {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: 60px 1fr;
+    grid-template-areas:
+        "sidebar header"
+        "sidebar main";
+    gap: 0;
+    min-height: 100vh;
 }
 
-.subgrid-rows {
-  display: grid;
-  grid-template-rows: subgrid;
+.area-sidebar { grid-area: sidebar; }
+.area-main { grid-area: main; }
+
+/* Hero Split */
+.grid-hero-split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    min-height: 500px;
 }
 
-.subgrid-both {
-  display: grid;
-  grid-template-columns: subgrid;
-  grid-template-rows: subgrid;
+@media (max-width: 768px) {
+    .grid-hero-split {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Gallery Grid */
+.grid-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+/* Feature Grid */
+.grid-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+/* Pricing Grid */
+.grid-pricing {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Blog Grid */
+.grid-blog {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 3rem;
+}
+
+@media (max-width: 1024px) {
+    .grid-blog {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Team Grid */
+.grid-team {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 2rem;
+}
+
+/* Stats Grid */
+.grid-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+/* Testimonials Grid */
+.grid-testimonials {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+/* Portfolio Grid */
+.grid-portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-flow: dense;
+    gap: 1rem;
+}
+
+.grid-portfolio .featured {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+/* Footer Grid */
+.grid-footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
 }
 
 /* ===============================
-   USAGE EXAMPLES
+   RESPONSIVE UTILITIES
+   =============================== */
+
+@media (max-width: 640px) {
+    .sm\:grid-cols-1 { grid-template-columns: repeat(1, 1fr); }
+    .sm\:grid-cols-2 { grid-template-columns: repeat(2, 1fr); }
+    .sm\:col-span-full { grid-column: 1 / -1; }
+}
+
+@media (min-width: 768px) {
+    .md\:grid-cols-2 { grid-template-columns: repeat(2, 1fr); }
+    .md\:grid-cols-3 { grid-template-columns: repeat(3, 1fr); }
+    .md\:grid-cols-4 { grid-template-columns: repeat(4, 1fr); }
+}
+
+@media (min-width: 1024px) {
+    .lg\:grid-cols-3 { grid-template-columns: repeat(3, 1fr); }
+    .lg\:grid-cols-4 { grid-template-columns: repeat(4, 1fr); }
+    .lg\:grid-cols-5 { grid-template-columns: repeat(5, 1fr); }
+    .lg\:grid-cols-6 { grid-template-columns: repeat(6, 1fr); }
+}
+
+@media (min-width: 1280px) {
+    .xl\:grid-cols-4 { grid-template-columns: repeat(4, 1fr); }
+    .xl\:grid-cols-5 { grid-template-columns: repeat(5, 1fr); }
+    .xl\:grid-cols-6 { grid-template-columns: repeat(6, 1fr); }
+}
+
+/* ===============================
+   USAGE EXAMPLES (COMMENTED)
    =============================== */
 
 /*
-BASIC USAGE:
-
-<!-- Auto-fit responsive gallery -->
-<div class="grid-auto gap-lg">
-  <div>Item 1</div>
-  <div>Item 2</div>
-  <div>Item 3</div>
+<!-- Auto-fit responsive grid -->
+<div class="grid-auto">
+    <div>Item 1</div>
+    <div>Item 2</div>
+    <div>Item 3</div>
 </div>
 
-<!-- Fixed 4-column grid -->
-<div class="grid-cols-4 gap-md">
-  <div>Column 1</div>
-  <div>Column 2</div>
-  <div>Column 3</div>
-  <div>Column 4</div>
+<!-- 3-column grid -->
+<div class="grid-cols-3 gap-6">
+    <div>Column 1</div>
+    <div>Column 2</div>
+    <div>Column 3</div>
 </div>
 
 <!-- Centered content -->
 <div class="grid-center" style="min-height: 400px;">
-  <h1>Centered Content</h1>
+    <h1>Centered Content</h1>
 </div>
 
 <!-- Sidebar layout -->
-<div class="grid-sidebar gap-lg">
-  <aside>Sidebar</aside>
-  <main>Main Content</main>
-</div>
-
-<!-- Span multiple columns -->
-<div class="grid-cols-4">
-  <div class="col-span-2">Spans 2 columns</div>
-  <div>Normal</div>
-  <div>Normal</div>
-</div>
-
-<!-- Responsive: 1 col mobile, 2 cols tablet, 4 cols desktop -->
-<div class="grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-md">
-  <div>Item 1</div>
-  <div>Item 2</div>
-  <div>Item 3</div>
-  <div>Item 4</div>
+<div class="grid-sidebar-left">
+    <aside>Sidebar</aside>
+    <main>Main Content</main>
 </div>
 
 <!-- Card grid -->
 <div class="grid-cards">
-  <div class="card">Card 1</div>
-  <div class="card">Card 2</div>
-  <div class="card">Card 3</div>
+    <div class="card">Card 1</div>
+    <div class="card">Card 2</div>
+    <div class="card">Card 3</div>
 </div>
 
-<!-- Holy Grail Layout -->
+<!-- Span multiple columns -->
+<div class="grid-cols-4 gap-4">
+    <div class="col-span-2">Spans 2 columns</div>
+    <div>Regular</div>
+    <div>Regular</div>
+</div>
+
+<!-- Holy grail layout -->
 <div class="grid-holy-grail">
-  <header class="grid-area-header">Header</header>
-  <aside class="grid-area-sidebar-left">Left Sidebar</aside>
-  <main class="grid-area-content">Main Content</main>
-  <aside class="grid-area-sidebar-right">Right Sidebar</aside>
-  <footer class="grid-area-footer">Footer</footer>
+    <header class="area-header">Header</header>
+    <aside class="area-sidebar-left">Left Sidebar</aside>
+    <main class="area-content">Main Content</main>
+    <aside class="area-sidebar-right">Right Sidebar</aside>
+    <footer class="area-footer">Footer</footer>
 </div>
 
-<!-- Full bleed sections -->
-<div class="grid-full-bleed">
-  <h1>Normal Content</h1>
-  <p>Constrained to content width</p>
-  <img class="full-width" src="hero.jpg" alt="Full width image">
-  <p>Back to normal width</p>
+<!-- Responsive stacked grid -->
+<div class="grid-stacked-3">
+    <div>Item 1</div>
+    <div>Item 2</div>
+    <div>Item 3</div>
+</div>
+
+<!-- Dashboard layout -->
+<div class="grid-dashboard">
+    <aside class="area-sidebar">Sidebar</aside>
+    <header class="area-header">Header</header>
+    <main class="area-main">Main Content</main>
+</div>
+
+<!-- Full width item in grid -->
+<div class="grid-cols-3">
+    <div>Item 1</div>
+    <div class="col-span-full">Full Width</div>
+    <div>Item 2</div>
+    <div>Item 3</div>
 </div>
 */

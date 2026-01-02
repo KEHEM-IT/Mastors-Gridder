@@ -1,6 +1,6 @@
 {
   "name": "mastors-gridder",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "A lightweight SCSS grid and layout utility with responsive mixins and CSS helpers for building flexible layouts, from simple grids to Holy Grail structures.",
   "main": "_mastors-gridder.scss",
   "files": [
