@@ -221,15 +221,23 @@
 // -------------------------------
 // SUBGRID MIXIN
 // -------------------------------
-@mixin grid-subgrid($rows: true, $cols: true) {
+@mixin grid-subgrid($rows: true, $cols: true, $fallback: 1fr) {
     display: grid;
 
     @if $cols {
         grid-template-columns: subgrid;
     }
 
+    @else {
+        grid-template-columns: $fallback;
+    }
+
     @if $rows {
         grid-template-rows: subgrid;
+    }
+
+    @else {
+        grid-template-rows: $fallback;
     }
 }
 
@@ -265,7 +273,14 @@
 // -------------------------------
 @mixin grid-auto-flow($direction: row, $dense: false) {
     display: grid;
-    grid-auto-flow: if($dense, #{$direction} dense, $direction);
+
+    @if $dense {
+        grid-auto-flow: #{$direction} dense;
+    }
+
+    @else {
+        grid-auto-flow: $direction;
+    }
 }
 
 // -------------------------------
